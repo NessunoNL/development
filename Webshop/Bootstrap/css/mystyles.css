@@ -1,7 +1,17 @@
-p.text-shadow{
+.text-shadow{
   text-shadow: 2px 2px 4px #000;
+}
+.text-stroke{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 .carousel-inner{
   width:100%;
   max-height: 300px !important;
+}
+@media only screen and (min-width : 768px) {
+  .carousel-caption
+  {
+    top: 120px;
+  }
 }
